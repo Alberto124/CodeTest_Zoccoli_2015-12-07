@@ -10,6 +10,7 @@ public class App {
          // if not, we should print a usage message and exit
          System.out.println(
                  "Usage: java -jar target/cowsay-1.0-SNAPSHOT.jar \"quote\" \"author\"");
+         System.out.print("XXX");
          System.exit(1);
      }
      String quote = args[0];
